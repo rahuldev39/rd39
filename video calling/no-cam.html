@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Video-calling</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    
+
+</head>
+
+<body>
+	<div class="calling-bg"></div>
+
+	<div class="main-wrapper">
+    <div class="text-center main-heading"><h3>Video Calling Software</h3></div>
+    
+    <div class="video-container">
+    
+    	<div class="video-top-block">
+        	<div class="vt-inner">
+                <div class="vt-left">
+                	<div class="contact-info"><h4>Nicole Kidman</h4></div>
+                    <div class="call-counter"><span>00</span>:<span>00</span></div>
+                </div>
+                <div class="vt-right">
+                	<div class="top-control">
+                    	<a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-block-main">
+        	<div class="contact-video connecting">
+            	<div class="user-connecting">
+                	<div class="user-img"><img src="img/user-img.jpg"></div>
+                    <span class="connecting-text">Connected</span>
+                </div>
+            </div>
+            <div class="video-self"></div>
+        </div>
+        
+        <div class="video-control">
+        	<div class="v-control-inner">	
+            	<a href="#" class="audio-btn toggle-btn"><i class="fa fa-microphone" aria-hidden="true"></i></a>
+                <a href="#" class="cam-btn toggle-btn"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                <a href="#" class="call-btn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            </div>
+            
+        </div>
+    </div>
+    	
+    </div>
+
+  
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+$( ".toggle-btn" ).click(function() {
+  $( this ).toggleClass( "disable" );
+});
+</script>
+
+</body>
+
+</html>
